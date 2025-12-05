@@ -1,0 +1,19 @@
+Package: decentralized1bit
+Title: Distributed 1-Bit Compressed Sensing over a Decentralized Network
+Version: 1.0
+Date: 2022-05-04
+Author@R:
+    c(person("Canyi", "Chen", , "cychen.stats@outlook.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0673-5812")),
+    person("Zhengtian", "Zhu", , role = c("aut", "cph")))
+Description: This package implements a distributed 1-bit compressed sensing algorithm designed for decentralized networks. It allows for efficient data acquisition and reconstruction in scenarios where communication bandwidth is limited.
+License: What license is it under?
+Imports: 
+    hqreg,
+    Rcpp,
+    RcppArmadillo
+RoxygenNote: 7.3.2
+LinkingTo: 
+    RcppArmadillo,
+    Rcpp
+Encoding: UTF-8
